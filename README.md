@@ -1,18 +1,18 @@
 <img align=left width=200 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Slack_Technologies_Logo.svg/2000px-Slack_Technologies_Logo.svg.png" /><br clear=left>
 
-In the next few days we are going to explore building a [Slackbot](https://www.entrepreneur.com/article/302409) using Python.  Of course there are many third-party platforms out there that can automate the process of creating AI-driven bots. But as emerging software engineers, we understand that by diving deep and exploring the nuts and bolts, we acquire a rich knowledge of _how_ things work which will serve us well in the future, as well as honing our set of general best practices.  Phase 1 is NOT a one-day assignment-- you will be researching, planning, and experimenting and task-switching between other activities this week.
+Durante os próximos dias nós vamos explorar a criação de um [Slackbot](https://translate.google.com.br/translate?hl=&sl=en&tl=pt&u=https%3A%2F%2Fwww.entrepreneur.com%2Farticle%2F302409) usando Python. É claro que exitem várias plataformas de terceiros por aí que podem automatizar o processo de criação de chat-bots. Mas, como engenheiros de software emergentes, entendemos que, mergulhando profundamente e explorando os detalhes, adquirimos um rico conhecimento de _como_ as tecnologias que nos ajudarão no futuro funcionam.  A _Fase 1_ não é uma tarefa pequena, você vai precisar pesquisar, planejar, experimentar, tudo isso enquanto concilia com outras atividades que fará também essa semana. 
 
-This assignment integrates many concepts that you have learned over the last few weeks.  In the end, you will have created a slackbot framework that you can take with you to extend, adapt, and reuse in many ways.
+Esta tarefa integra vários conceitos vistos nas últimas semanas. Além disso, depois que terminar esta atividade, vai poder no futuro adaptar para outras necessidades.
 
-### Learning Objectives
- - Become comfortable with self-guided API research and experimentation
- - Create, test, deploy, manage a long running program in a cloud environment 
- - Apply best practices in repository structure
- - Use a virtual environment on a project
- - Learn how to create an integration between two APIs
+## Objetivos do Aprendizado
+ - Sentir-se à vontade com a pesquisa e experimentação de APIs auto-guiadas
+ - Crie, teste, implemente e gerencie programas na nuvem
+ - Aplicar boas práticas na estrutura do repositório
+ - Usar o __virtual enviornment__ em um projeto
+ - Aprenda a integrar APIs
 
-### Goal
-The goal is to create a long-running Slackbot that responds to user commands, and integrates to a secondary API to acquire data.  The secondary API choice is up to the student, and can be any open api that provides some interesting data that can be present in a slack channel and does not require a paid subscription.  A list of public APIs is available [here](https://github.com/toddmotto/public-apis)
+## Objetivo
+O objetivo é criar um Slackbot que responda aos comandos do usuário e se integre a uma API secundária para adquirir dados. A escolha da API secundária depende do aluno e pode ser qualquer API aberta que forneça alguns dados interessantes que possam estar presentes em um canal slack e que não exija uma assinatura paga.  Uma lista de APIs públicas gratuitas está disponível [aqui](https://github.com/toddmotto/public-apis)
 
 ### Setup - Slack
 For this assignment, we will be using two separate, private Slack Team accounts.  These accounts are only used by the SE cohorts for this assignment, there are no other users.  The reason for using two separate accounts is because Slack free team accounts limit the number of app integrations to max of 10.  Please ask your instructor to send you the self signup links when you are ready.  Once you are in, send a msg to your instructor to ask for admin privilege.  You will need `admin` to create a bot application.
